@@ -1,6 +1,6 @@
 {
   "name": "@skroutz/hypernova",
-  "version": "2.5.1",
+  "version": "2.5.2",
   "description": "A service for server-side rendering your JavaScript views",
   "private": false,
   "main": "lib/index.js",
