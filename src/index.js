@@ -49,7 +49,7 @@ function decode(res) {
   }, res);
 
   // Backward compatibility with non base 64 payloads
-  if (payload.trim().startsWith('{')) {
+  if (payload.trim().lastIndexOf('{', 0) === 0) {
     return JSON.parse(payload);
   }
 
